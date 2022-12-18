@@ -3,8 +3,22 @@
 :root{
     --main-color: #02577A;
     --secondary-color: #C4C4C4;
+    --background-color: #E5E5E5;
+    --menu-color: #F7F6FF;
 }
 
 *{
     font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: auto;
+    background-color: var(--background-color);
+    color: var(--main-color);
+    font-weight: 500;
 }
