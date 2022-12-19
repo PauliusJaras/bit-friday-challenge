@@ -7,30 +7,37 @@ nav{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-nav > a{
+nav a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     text-decoration: none;
     color: var(--secondary-color);
 }
 
 .nav-menu{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 .nav-item{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 16px 0;
+    text-align: center;
+    width: 89px;
+    margin: 30px 0;
     margin-left: 11px;
     color: var(--secondary-color);
+}
+
+#active{
+    background-color: #fff;
+    padding: 16px 0;
+    border-radius: 15px 0 0 15px;
+}
+
+#active a{
+    color: var(--main-color);
 }
 
 .logo{
@@ -38,8 +45,7 @@ nav > a{
 }
 
 .logo-line{
-    box-sizing: border-box;
-    width: 100%;
+    width: 62px;
     height: 2px;
     background-color: var(--secondary-color);
     margin: 24px 19px;
@@ -63,16 +69,9 @@ footer{
     font-size: 11px;
 }
 
-#active{
-    width: 89px;
-    color: var(--main-color);
-    background-color: #fff;
-    padding: 16px 0;
-    border-radius: 15px 0 0 15px;
-}
-
 span{
     display: none;
+    padding-left: 5px;
 }
 
 i{
@@ -80,5 +79,24 @@ i{
 }
 
 nav:hover{
+    width: 206px;
+    transition: width 1s;
+}
 
+nav:hover span{
+    display:block;
+}
+
+nav:hover .nav-item{
+    width: 195px;
+    transition: width 1s;
+}
+
+nav:hover .nav-menu{
+    text-align: center;
+}
+
+nav:hover .logo-line{
+    width: 128px;
+    transition: width 1s;
 }
