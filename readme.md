@@ -6,6 +6,8 @@ This is a project was made for educational purposes. You can check the complete 
 
 * Design initial layout of the website
 
+## 💻 Prerequisites
+
 Node.js - download and install
 
 `https://nodejs.org`
