@@ -1,6 +1,6 @@
 # BIT-Friday-challenge
 ## 🌟 About
-This is a project was made for educational purposes. You can check the complete project here: https://pauliusjaras.github.io/bit-friday-challenge/
+This is a project that was made for educational purposes. You can check the complete project here: https://pauliusjaras.github.io/bit-friday-challenge/
 
 ## 🎯 Project features/goals
 
